@@ -1,0 +1,51 @@
+.card{                
+    width: 250px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-right: 8px;
+}
+.Image{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+.Name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-left: 8px;
+}
+.suggestion{
+    color: grey;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-size: 18px;
+}
+.Add{
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: rgb(0, 122, 255);
+    border: none;
+    border-radius: 4px ;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.catt{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-right: 4px;
+    object-fit: cover;
+}
+.cat1{
+    margin-left: 8px;
+    margin-bottom: 10px;
+}

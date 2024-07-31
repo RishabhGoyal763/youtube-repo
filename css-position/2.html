@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>position-practice</title>
+    </head>
+
+    <body style="
+        height: 3000px;
+        font-family: arial;">
+
+        <div style="
+            position: fixed;
+            background-color: black;
+            color: white;
+            right: 20px;
+            bottom: 20px;">
+            bottom-right
+        </div>
+
+        <div style="
+            background-color: green;
+            color: white;
+            position: fixed;
+            right: 0px;
+            top: 0px;
+            bottom:0px;
+            width: 90px;">
+            right sidebar
+        </div>
+
+        <div style="
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            right: 0px;
+            top: 0px;
+            bottom:0px;
+            left: 0px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            ">
+
+            <div style="
+                background-color: white;
+                width: 300px;
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border-radius: 6px;
+                ">
+
+                <div style="
+                    font-size: 24px;
+                    font-weight: bold;
+                    margin-bottom: 8px;">
+                    Modal Title
+                </div>
+
+                <div style="
+                    font-weight: 600;
+                    font-size: 16px;
+                    margin-bottom: 12px;">
+                    This is a model
+                </div>
+
+                <button style="
+                    padding-left: 6px;
+                    padding-right: 6px;
+                    padding-top: 3px;
+                    padding-bottom: 3px;
+                    font-size: 14px;
+                    border-width: 1px;
+                    border-style: solid;
+                    font-weight: 600;
+                    background-color: rgb(223, 220, 217);
+                    border-color: grey;
+                    border-radius: 3px;">
+                    Close
+                </button>
+            
+            </div>
+        </div>
+    </body>
+</html>

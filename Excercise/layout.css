@@ -1,0 +1,55 @@
+p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Arial;
+}
+.first{
+    display: inline-block;
+    margin-right: 14px;
+}
+.Image{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+
+
+.second{
+    display: inline-block;
+    margin-right: 100px;
+    width: 120px;
+}
+.Name{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.Category ,
+.Status{
+    color: rgb(151, 151, 151);
+    font-size: 14px;
+}
+.Category{
+    margin-bottom: 1px;
+}
+
+
+
+.third{
+    display: inline-block; 
+    vertical-align: 15px;
+}
+.follow-button{
+    align-items: center;
+    color: white;
+    background-color: rgb(115, 163, 252);
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
