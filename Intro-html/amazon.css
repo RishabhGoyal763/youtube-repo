@@ -1,0 +1,42 @@
+.ADD{
+    background-color : rgb(249, 216, 76);
+    height : 35px;
+    width : 110px;
+    border : none;
+    border-radius : 17.5px; 
+    font-weight : bold;
+    margin-right : 15px;
+    cursor : pointer;
+}
+
+.Buy{
+    background-color : rgb(255, 164, 28);
+    height : 35px;
+    width : 110px;
+    border : none;
+    border-radius : 17.5px;
+    font-weight : bold;
+    cursor : pointer;
+}
+
+.price{
+    color : rgb(0,118,0);
+    font-size : 20pxpx;
+}
+
+.amazon:hover{
+    color : rgb(250, 202, 131);
+}
+
+.ADD:active{
+    opacity : 0.5;
+
+}
+
+.Buy:hover{
+    background-color : rgb(250, 137, 0);
+}
+
+.Buy:active{
+    opacity: 0.5;
+}
